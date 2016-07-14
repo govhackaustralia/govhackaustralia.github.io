@@ -3,26 +3,10 @@ layout: bootstrap
 ---
 <!-- La la la just some text so we trigger a rebuild of GHP -->
 <!-- Main Content -->
-<section id="registrations">
-  <div class="alert alert-success">
-    <p><strong>Registrations now open:</strong> Click through to your state to register, and don't forget to <a href="locations.html">read up on your chosen event</a>.</p>
-    <br>
-    <div class="container">
-        <div class="row">
-        {% for jurisdiction in site.jurisdictions %}
-            {% assign jurisdictions = "" %}
-            {% unless jurisdiction.eventbrite == nil %}
-                <div class="col-md-2 col-sm-3 col-xs-6">
-                    <strong>🎫 <a href="{{ jurisdiction.eventbrite }}">{{ jurisdiction.title }} tickets</a></strong>
-                </div>
-            {% endunless %}
-        {% endfor %}
-        </div>
-    </div>
-    <br>
-  </div>
-</section>
 
+<h2 style="background: repeating-linear-gradient(-55deg,#222,#222 10px,yellow 10px,yellow 20px); color: white; padding: 15px;">Danger Zone</h2>
+
+<p>Test test, this is only a staging site</p>
 
 <section id="intro">
   <div class="container">
