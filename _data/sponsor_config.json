@@ -40,6 +40,9 @@
             "columns": 1,
             "classNames": "unbound"
         }, {
+            "slug": "naming-rights-and-premier-qld",
+            "columns": 2
+        }, {
             "slug": "platinum-state-qld", 
             "columns": 1.5
         }, {
