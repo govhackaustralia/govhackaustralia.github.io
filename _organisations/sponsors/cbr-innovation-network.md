@@ -9,5 +9,7 @@ sponsor_level: Silver Sponsor
 sponsor_level_id: silver
 sponsor_level_desc: Silver Sponsors
 jurisdiction: act
+events:
+  - canberra
 is_sponsor: true
 ---
